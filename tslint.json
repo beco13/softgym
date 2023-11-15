@@ -1,0 +1,65 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "prefer-const": false,
+        "array-type": false,
+        "arrow-return-shorthand": true,
+        "curly": true,
+        "deprecation": {
+            "severity": "warning"
+        },
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-empty": false,
+        "no-inferrable-types": [
+            true,
+            "ignore-params"
+        ],
+        "no-non-null-assertion": true,
+        "no-redundant-jsdoc": false,
+        "no-switch-case-fall-through": true,
+        "no-var-requires": false,
+        "variable-name": {
+            "options": [
+              "ban-keywords",
+              "check-format",
+              "allow-leading-underscore",
+              "allow-pascal-case",
+              "allow-snake-case"
+            ]
+        },
+        "whitespace": {
+            "options": [
+                "check-branch",
+                "check-decl",
+                "check-operator",
+                "check-separator",
+                "check-type",
+                "check-typecast"
+            ]
+        },
+        "no-shadowed-variable": [
+            true,
+            {
+                "class": true,
+                "enum": true,
+                "function": true,
+                "interface": false,
+                "namespace": true,
+                "typeAlias": false,
+                "typeParameter": false,
+                "underscore": false
+            }
+        ],
+        "trailing-comma": [
+            false
+        ]
+    },
+    "rulesDirectory": []
+}

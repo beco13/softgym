@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "ES2021",
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": false,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "baseUrl": "./",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "./types/*",
+            ]
+        },
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
